@@ -1,0 +1,172 @@
+using System;
+
+namespace ConsoleApp
+{
+class Program
+{
+
+  static void Main(string[] args)
+
+
+
+
+  {
+if (data !+null)
+{
+  int[] temp;
+  temp = new int[data.Length];
+
+  for (int i = 0; i < data.Length; i++)
+  {
+    temp[i] = data[i];
+  }
+  data = new int[data.Length + 1];
+
+  for (int i =0; i < temp.Length; i++)
+  {
+    data[i] = temp[i];
+  }
+  data[data.Length - 1] = item;
+  {
+else
+{
+    data = new int[1];
+    data[0] = item;
+  }
+  count++;
+
+
+
+
+
+if (data !+null)
+{
+  int[] temp;
+  temp = new int[data.Length];
+
+  for (int i = 0; i < data.Length; i++)
+  {
+    temp[i] = data[i];
+  }
+  data = new int[data.Length + 1];
+
+  for (int i =0; i < index ; i++)
+  {
+    data[i] = temp[i];
+  }
+  data[index] = item;
+  for (int i = index; i < temp.Length; i++)
+  {
+    data[i + 1] = temp[i];
+  }
+  {
+else
+{
+    data = new int[1];
+    data[0] = item;
+  }
+  count++;
+
+  data = null;
+  count = 0;
+
+  bool b = false;
+  for (int i = 0; i < data.Length; i++)
+  {
+if (item == data[i])
+{
+  b = true;
+  break;
+}
+return b;
+  }
+ int p = IndexOf(item);
+ if (p != -1)
+ {
+   RemoveAt(p);
+ }
+
+
+
+
+
+
+
+ if (data != null)
+ {
+int[] temp;
+temp = new int[data.Length];
+ 
+ for (int i =0; i < data.Length; i++)
+ {
+   temp[i] = data[i];
+ }
+
+data = new int[data.Length - 1];
+
+ for (int i =0; i < index; i++)
+ {
+   data[i] =temp[i];
+ }
+ 
+ for (int i =index + 1; i < temp.Length; i++)
+ {
+   data[i - 1] = temp[i];
+ }
+ count--;
+
+
+
+
+int p = - 1;
+
+for (int i = 0; i < data.Length; i++)
+
+{
+
+  if (item == data[i])
+
+  {
+    p = i;
+    break;
+  }
+
+}
+return p;
+ 
+
+for (int i = 0; i < count; i++)
+
+{
+  
+  Console.Write("{0}," data[i]);
+
+}
+
+Console.WriteLine();
+
+
+
+
+ }
+  
+
+
+
+
+
+
+
+
+
+
+
+}
+
+  }
+
+}
+
+
+}
+
